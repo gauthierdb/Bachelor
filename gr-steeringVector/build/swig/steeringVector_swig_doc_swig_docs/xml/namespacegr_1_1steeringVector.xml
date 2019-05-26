@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1steeringVector" kind="namespace" language="C++">
+    <compoundname>gr::steeringVector</compoundname>
+    <innerclass refid="classgr_1_1steeringVector_1_1messageAtThreshold" prot="public">gr::steeringVector::messageAtThreshold</innerclass>
+    <innerclass refid="classgr_1_1steeringVector_1_1multiplyComplex" prot="public">gr::steeringVector::multiplyComplex</innerclass>
+    <innerclass refid="classgr_1_1steeringVector_1_1phaseOffset" prot="public">gr::steeringVector::phaseOffset</innerclass>
+    <innerclass refid="classgr_1_1steeringVector_1_1sample__offset__multi" prot="public">gr::steeringVector::sample_offset_multi</innerclass>
+    <innerclass refid="classgr_1_1steeringVector_1_1steeringVector" prot="public">gr::steeringVector::steeringVector</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gauthier/gr-steeringVector/include/steeringVector/messageAtThreshold.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<block>
+  <name>multiplyComplex</name>
+  <key>steeringVector_multiplyComplex</key>
+  <category>[steeringVector]</category>
+  <import>import steeringVector</import>
+  <make>steeringVector.multiplyComplex()</make>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+		<name>multiplyConst</name>
+		<type>message</type>
+	</sink>
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

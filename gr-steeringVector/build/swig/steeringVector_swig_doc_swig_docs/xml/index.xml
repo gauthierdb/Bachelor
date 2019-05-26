@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1steeringVector_1_1messageAtThreshold" kind="class"><name>gr::steeringVector::messageAtThreshold</name>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold_1a72c35d95bdaebabcb0126ea4f3e2ecab" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold_1a061a26bc15772dc8b0ce7d4e082c4514" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold_1a41c33c21d189f4535fbcacd400bb329a" kind="function"><name>set_isActive</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1multiplyComplex" kind="class"><name>gr::steeringVector::multiplyComplex</name>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex_1a1680aceb41f4fe4f54ac3fdb67e9fbe1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex_1a5b6b92b5ab1c38468fc8c3f71dc21013" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1phaseOffset" kind="class"><name>gr::steeringVector::phaseOffset</name>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset_1acd6df1d9e21a99915e61c1dceb4e64a3" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset_1a34184bf398fec4d7e3adf80f56b3f7bc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1sample__offset__multi" kind="class"><name>gr::steeringVector::sample_offset_multi</name>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi_1ad2b223f2212af85a421f97469d1a3315" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi_1acf7cf767d3f42f4cb413c4debba0dfd3" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1steeringVector" kind="class"><name>gr::steeringVector::steeringVector</name>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector_1a27881518c95ada32190928b71b1dd833" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector_1a67ffe8824c3454fe88c15c09d274feb7" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1steeringVector" kind="namespace"><name>gr::steeringVector</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1af1188ae6c080cfb66bb7b082149c8568" kind="define"><name>STEERINGVECTOR_API</name></member>
+  </compound>
+  <compound refid="messageAtThreshold_8h" kind="file"><name>messageAtThreshold.h</name>
+  </compound>
+  <compound refid="multiplyComplex_8h" kind="file"><name>multiplyComplex.h</name>
+  </compound>
+  <compound refid="phaseOffset_8h" kind="file"><name>phaseOffset.h</name>
+  </compound>
+  <compound refid="sample__offset__multi_8h" kind="file"><name>sample_offset_multi.h</name>
+  </compound>
+  <compound refid="steeringVector_8h" kind="file"><name>steeringVector.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_30a79b9d82dfd38d79e6bdc583043b4a" kind="dir"><name>steeringVector</name>
+  </compound>
+</doxygenindex>

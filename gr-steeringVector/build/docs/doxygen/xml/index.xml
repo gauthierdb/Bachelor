@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1steeringVector_1_1messageAtThreshold" kind="class"><name>gr::steeringVector::messageAtThreshold</name>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold_1a72c35d95bdaebabcb0126ea4f3e2ecab" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold_1a061a26bc15772dc8b0ce7d4e082c4514" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold_1a41c33c21d189f4535fbcacd400bb329a" kind="function"><name>set_isActive</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl" kind="class"><name>gr::steeringVector::messageAtThreshold_impl</name>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1af1476643acfa03341b5a7179f082cba1" kind="variable"><name>d_msg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1afa24541437579c0fb087897d1acfbf54" kind="variable"><name>d_port</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1ae763b202479d9a39c94c2d89a5e1d60b" kind="variable"><name>d_isActive</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a9331aa16eb2d2c451b4639fbd3012fe6" kind="variable"><name>d_vector_count</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a719d15ffa3099fc4b935009a73e769c8" kind="variable"><name>d_threshLow</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a5e81b6b9d72db6575c59c6f026e901ff" kind="variable"><name>d_threshHigh</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a1b1d2672e1b6b7f86ee22c6d9e5ec424" kind="variable"><name>d_last_state</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a246cb71e6c92a5b1a30b0a8f677f623b" kind="variable"><name>d_inFloat</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1ab31b0953847e51c56d4ea10a8df10f1b" kind="function"><name>messageAtThreshold_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a92229c445bf778d2ac8b49823c274b83" kind="function"><name>~messageAtThreshold_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1a05e468e9f24a870bd47f1c78f41aedc6" kind="function"><name>set_isActive</name></member>
+    <member refid="classgr_1_1steeringVector_1_1messageAtThreshold__impl_1ae10c52dcd81c1ea8793b6b1bc52bb6d0" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1multiplyComplex" kind="class"><name>gr::steeringVector::multiplyComplex</name>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex_1a1680aceb41f4fe4f54ac3fdb67e9fbe1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex_1a5b6b92b5ab1c38468fc8c3f71dc21013" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1multiplyComplex__impl" kind="class"><name>gr::steeringVector::multiplyComplex_impl</name>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1ac1f7d479923feea5f9ff2f45b2f5ec70" kind="variable"><name>d_port_in</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a79b7fb5dfc60962e9c5f1eb27408321c" kind="variable"><name>complexConst</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a3d5c515ca3b5a5c5612f0925658bc683" kind="function"><name>multiply_msg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1aeee6c6faf9b8135a37cb0c251af434ec" kind="function"><name>multiplyComplex_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a2e7f40142b3ff7aa411568ad8d4db0a5" kind="function"><name>~multiplyComplex_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a87ac9504524d920375d9cd202861c287" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1phaseOffset" kind="class"><name>gr::steeringVector::phaseOffset</name>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset_1acd6df1d9e21a99915e61c1dceb4e64a3" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset_1a34184bf398fec4d7e3adf80f56b3f7bc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1phaseOffset__impl" kind="class"><name>gr::steeringVector::phaseOffset_impl</name>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a88b7552004dd0399f38708b7ad9a87bc" kind="variable"><name>d_vector_length</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a097b1d79657b72ba3590ea529855217e" kind="variable"><name>d_vector_count</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a035454de5568b2b4a1a8f544d7a86e6c" kind="variable"><name>d_which</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a4d2c0a681bfeaed4718785aabec40bd4" kind="variable"><name>d_isActive</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a0a09439df926c6074fa587eba48ff5ea" kind="variable"><name>d_shift</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1acf60947fc32a2bed6bc62be220bcd1f8" kind="variable"><name>d_results</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1ad2f446e28fef54d60cfb5a23942f1413" kind="variable"><name>d_buff</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a3544a823c81b8a33e653f1bb9b1fa3cd" kind="variable"><name>d_port_in</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a059a31499eb2c0f4dcd27249d9edf104" kind="variable"><name>d_port_out</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1ad5c440e41b89a77a0ff2eb8436fd72b2" kind="function"><name>recalc_msg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a8c5438ed3fbe5ee322d08b15fac5118d" kind="function"><name>avgPhaseDiff</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a29fc07edd1891ba3d00684f21b4a149e" kind="function"><name>phaseOffset_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a0cd883fe5e66d6c6370f9eb78fc31d07" kind="function"><name>~phaseOffset_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a2e41a9fb9b822ee2715674ebad848064" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1sample__offset__multi" kind="class"><name>gr::steeringVector::sample_offset_multi</name>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi_1ad2b223f2212af85a421f97469d1a3315" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi_1acf7cf767d3f42f4cb413c4debba0dfd3" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl" kind="class"><name>gr::steeringVector::sample_offset_multi_impl</name>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a4824d10d45ccc2d0696bef859f1b0cbd" kind="variable"><name>d_vector_length</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a868b5c4194c92d5ed05e1f850518eae5" kind="variable"><name>d_vector_count</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a123ee8fd03d284b7e31ac2a9f74bc6f4" kind="variable"><name>d_num_inputs</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ad4c9c10f41939efb0b47ac6891765bfe" kind="variable"><name>d_fft_width</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ac49df273fa9bd861d40be81e80029579" kind="variable"><name>d_which</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a49164179379f1ea8e53994e8949936fb" kind="variable"><name>d_results1</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1adfa4fb181b4f0165da9ac8551b26ffcb" kind="variable"><name>d_results2</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a1c0c759ae923988eff51fc426b5afbc5" kind="variable"><name>d_results3</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a620235a495aa870d11e052f08b8aa864" kind="variable"><name>d_results4</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a48ff97b766d1942b9d2633ae2b651f36" kind="variable"><name>d_results5</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1aedae921d721a0bf5d3a8618a4cbb8611" kind="variable"><name>d_results6</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af89bf5dc5003549f4bda663adf13e1b3" kind="variable"><name>d_results7</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a35f513b00beb1b7be08730059a9561b2" kind="variable"><name>d_means</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a0cbbb912196d2de6dd476fbb5ac8bebb" kind="variable"><name>d_msg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a78c0c2c8e6ef478abe6ebc6d92a35dc1" kind="variable"><name>d_port_in</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a0e847f785d7251b70f1aefeaf7737826" kind="variable"><name>d_port_out0</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ad79bea98c27262ca747e4691192583a6" kind="variable"><name>d_port_out1</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a61ff5d49f0f9cc505a20aaf7bf42865b" kind="variable"><name>d_port_out2</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a7cf840c02aed52817e0903aa05791bc0" kind="variable"><name>d_port_out3</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1adf227a64b91308e6830d84a14ce2a8f1" kind="variable"><name>d_port_out4</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ae797a62eefddccbac2cc302db46ec8a8" kind="variable"><name>d_port_out5</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af476835540a8160f5ac2587f9af3b0a9" kind="variable"><name>d_port_out6</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a1afc8c1b73502d1dcb84a2eb9ead3a2d" kind="variable"><name>d_port_out7</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a6552cd5708b14e40e3b85a554992a76e" kind="variable"><name>d_fft</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a6968fc5bc4a6262efb2fa0dcc120778d" kind="variable"><name>d_ifft</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a7c37654223214363a381e26ab223a0a7" kind="variable"><name>d_buffer_ref_fft</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a86d0a125966c65ef25d253caaff4d23a" kind="variable"><name>d_buffer_in_fft</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a4ca9e7dbbacd5ac8df7be9c8f37250de" kind="variable"><name>d_buffer</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ac2313ddb9cd5a6054ad2bf903252818e" kind="variable"><name>d_buffer2</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a31701544cb46a8f5452de5e38b7070a1" kind="function"><name>get_shift</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ab4bdf27c2ed6ae643961130be44cedac" kind="function"><name>recalc_msg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af6edcab4faff77390420eeafdb2a5865" kind="function"><name>sample_offset_multi_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a8b921eaa3fb1a64dccb950df109b2fd6" kind="function"><name>~sample_offset_multi_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a5c288477141ee5341aee62a1f5d2bbf3" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1steeringVector" kind="class"><name>gr::steeringVector::steeringVector</name>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector_1a27881518c95ada32190928b71b1dd833" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector_1a67ffe8824c3454fe88c15c09d274feb7" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1steeringVector_1_1steeringVector__impl" kind="class"><name>gr::steeringVector::steeringVector_impl</name>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1aaebb021d06c175e9a77d230ea12838fb" kind="variable"><name>pi</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a211b4b1a55af5504c2ff278d903ee6ad" kind="variable"><name>factor</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a6ff18f7253c7b90d3d9417ca5eac7178" kind="variable"><name>d_which</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a6c13dcde4345e2f01b240191347781bc" kind="variable"><name>d_num</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a56197b872775a501963af9a978bfc138" kind="variable"><name>d_avg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a66171bc73742e2501e17ca0bfa746dc3" kind="variable"><name>d_results</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a985b946b33db47c4f5b489e8458648d7" kind="variable"><name>d_buffer</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1af0481b3d1bf561bc79d4b1b1732a10f6" kind="variable"><name>d_vectorLength</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a630ebfb21e78c1edb6da4c93e869f373" kind="variable"><name>d_arraySpacing</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1ad47262de43f8e387107b666d053bf257" kind="variable"><name>d_arrayLength</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a12f0f83acbc6122a2205affbe4034692" kind="variable"><name>d_refAngle</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a16a46c65f6d83de304ebc251237ede1a" kind="function"><name>recalc_msg</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a4bc4b1a38dc328a1ebab35258378507a" kind="function"><name>calcOffset</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1addc64efc45c0cc7de0590258db5937e6" kind="function"><name>steeringVector_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a4275342d0ffc5210d551f36289b8f40a" kind="function"><name>~steeringVector_impl</name></member>
+    <member refid="classgr_1_1steeringVector_1_1steeringVector__impl_1a62ff53f0986395bd9bc428c32286679d" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1steeringVector" kind="namespace"><name>gr::steeringVector</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1af1188ae6c080cfb66bb7b082149c8568" kind="define"><name>STEERINGVECTOR_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="messageAtThreshold_8h" kind="file"><name>messageAtThreshold.h</name>
+  </compound>
+  <compound refid="messageAtThreshold__impl_8h" kind="file"><name>messageAtThreshold_impl.h</name>
+  </compound>
+  <compound refid="multiplyComplex_8h" kind="file"><name>multiplyComplex.h</name>
+  </compound>
+  <compound refid="multiplyComplex__impl_8h" kind="file"><name>multiplyComplex_impl.h</name>
+  </compound>
+  <compound refid="phaseOffset_8h" kind="file"><name>phaseOffset.h</name>
+  </compound>
+  <compound refid="phaseOffset__impl_8h" kind="file"><name>phaseOffset_impl.h</name>
+  </compound>
+  <compound refid="sample__offset__multi_8h" kind="file"><name>sample_offset_multi.h</name>
+  </compound>
+  <compound refid="sample__offset__multi__impl_8h" kind="file"><name>sample_offset_multi_impl.h</name>
+  </compound>
+  <compound refid="steeringVector_8h" kind="file"><name>steeringVector.h</name>
+  </compound>
+  <compound refid="steeringVector__impl_8h" kind="file"><name>steeringVector_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_30a79b9d82dfd38d79e6bdc583043b4a" kind="dir"><name>steeringVector</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

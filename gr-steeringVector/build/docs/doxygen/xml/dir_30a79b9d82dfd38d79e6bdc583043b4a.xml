@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_30a79b9d82dfd38d79e6bdc583043b4a" kind="dir">
+    <compoundname>steeringVector</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="messageAtThreshold_8h">messageAtThreshold.h</innerfile>
+    <innerfile refid="multiplyComplex_8h">multiplyComplex.h</innerfile>
+    <innerfile refid="phaseOffset_8h">phaseOffset.h</innerfile>
+    <innerfile refid="sample__offset__multi_8h">sample_offset_multi.h</innerfile>
+    <innerfile refid="steeringVector_8h">steeringVector.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gauthier/gr-steeringVector/include/steeringVector/"/>
+  </compounddef>
+</doxygen>

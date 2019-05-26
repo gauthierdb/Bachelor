@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1steeringVector_1_1sample__offset__multi__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::steeringVector::sample_offset_multi_impl</compoundname>
+    <basecompoundref refid="classgr_1_1steeringVector_1_1sample__offset__multi" prot="public" virt="non-virtual">gr::steeringVector::sample_offset_multi</basecompoundref>
+    <includes refid="sample__offset__multi__impl_8h" local="no">sample_offset_multi_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a4824d10d45ccc2d0696bef859f1b0cbd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::d_vector_length</definition>
+        <argsstring></argsstring>
+        <name>d_vector_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="33" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a868b5c4194c92d5ed05e1f850518eae5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::d_vector_count</definition>
+        <argsstring></argsstring>
+        <name>d_vector_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="34" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a123ee8fd03d284b7e31ac2a9f74bc6f4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::d_num_inputs</definition>
+        <argsstring></argsstring>
+        <name>d_num_inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="35" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ad4c9c10f41939efb0b47ac6891765bfe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::d_fft_width</definition>
+        <argsstring></argsstring>
+        <name>d_fft_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="36" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ac49df273fa9bd861d40be81e80029579" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="37" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a49164179379f1ea8e53994e8949936fb" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results1</definition>
+        <argsstring></argsstring>
+        <name>d_results1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="38" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1adfa4fb181b4f0165da9ac8551b26ffcb" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results2</definition>
+        <argsstring></argsstring>
+        <name>d_results2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="39" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a1c0c759ae923988eff51fc426b5afbc5" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results3</definition>
+        <argsstring></argsstring>
+        <name>d_results3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="40" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a620235a495aa870d11e052f08b8aa864" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results4</definition>
+        <argsstring></argsstring>
+        <name>d_results4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="41" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a48ff97b766d1942b9d2633ae2b651f36" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results5</definition>
+        <argsstring></argsstring>
+        <name>d_results5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="42" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1aedae921d721a0bf5d3a8618a4cbb8611" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results6</definition>
+        <argsstring></argsstring>
+        <name>d_results6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="43" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af89bf5dc5003549f4bda663adf13e1b3" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_results7</definition>
+        <argsstring></argsstring>
+        <name>d_results7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="44" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a35f513b00beb1b7be08730059a9561b2" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::steeringVector::sample_offset_multi_impl::d_means</definition>
+        <argsstring></argsstring>
+        <name>d_means</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="46" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a0cbbb912196d2de6dd476fbb5ac8bebb" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="49" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a78c0c2c8e6ef478abe6ebc6d92a35dc1" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="50" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a0e847f785d7251b70f1aefeaf7737826" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out0</definition>
+        <argsstring></argsstring>
+        <name>d_port_out0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="51" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ad79bea98c27262ca747e4691192583a6" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out1</definition>
+        <argsstring></argsstring>
+        <name>d_port_out1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="52" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a61ff5d49f0f9cc505a20aaf7bf42865b" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out2</definition>
+        <argsstring></argsstring>
+        <name>d_port_out2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="53" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a7cf840c02aed52817e0903aa05791bc0" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out3</definition>
+        <argsstring></argsstring>
+        <name>d_port_out3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="54" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1adf227a64b91308e6830d84a14ce2a8f1" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out4</definition>
+        <argsstring></argsstring>
+        <name>d_port_out4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="55" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ae797a62eefddccbac2cc302db46ec8a8" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out5</definition>
+        <argsstring></argsstring>
+        <name>d_port_out5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="56" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af476835540a8160f5ac2587f9af3b0a9" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out6</definition>
+        <argsstring></argsstring>
+        <name>d_port_out6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="57" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a1afc8c1b73502d1dcb84a2eb9ead3a2d" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::sample_offset_multi_impl::d_port_out7</definition>
+        <argsstring></argsstring>
+        <name>d_port_out7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="58" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a6552cd5708b14e40e3b85a554992a76e" prot="private" static="no" mutable="no">
+        <type>gr::fft::fft_complex *</type>
+        <definition>gr::fft::fft_complex* gr::steeringVector::sample_offset_multi_impl::d_fft</definition>
+        <argsstring></argsstring>
+        <name>d_fft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="61" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a6968fc5bc4a6262efb2fa0dcc120778d" prot="private" static="no" mutable="no">
+        <type>gr::fft::fft_complex *</type>
+        <definition>gr::fft::fft_complex* gr::steeringVector::sample_offset_multi_impl::d_ifft</definition>
+        <argsstring></argsstring>
+        <name>d_ifft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="62" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a7c37654223214363a381e26ab223a0a7" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::steeringVector::sample_offset_multi_impl::d_buffer_ref_fft</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_ref_fft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="63" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a86d0a125966c65ef25d253caaff4d23a" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::steeringVector::sample_offset_multi_impl::d_buffer_in_fft</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_in_fft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="64" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a4ca9e7dbbacd5ac8df7be9c8f37250de" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::steeringVector::sample_offset_multi_impl::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="65" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ac2313ddb9cd5a6054ad2bf903252818e" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::steeringVector::sample_offset_multi_impl::d_buffer2</definition>
+        <argsstring></argsstring>
+        <name>d_buffer2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="66" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a31701544cb46a8f5452de5e38b7070a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::get_shift</definition>
+        <argsstring>(const gr_complex *&amp;in)</argsstring>
+        <name>get_shift</name>
+        <param>
+          <type>const gr_complex *&amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ab4bdf27c2ed6ae643961130be44cedac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::steeringVector::sample_offset_multi_impl::recalc_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>recalc_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af6edcab4faff77390420eeafdb2a5865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::steeringVector::sample_offset_multi_impl::sample_offset_multi_impl</definition>
+        <argsstring>(int vector_length, int vector_count, int num_inputs)</argsstring>
+        <name>sample_offset_multi_impl</name>
+        <param>
+          <type>int</type>
+          <declname>vector_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_count</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a8b921eaa3fb1a64dccb950df109b2fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::steeringVector::sample_offset_multi_impl::~sample_offset_multi_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~sample_offset_multi_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a5c288477141ee5341aee62a1f5d2bbf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::steeringVector::sample_offset_multi_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="75" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>gr::steeringVector::sample_offset_multi</label>
+        <link refid="classgr_1_1steeringVector_1_1sample__offset__multi"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>sync_block</label>
+      </node>
+      <node id="38">
+        <label>gr::steeringVector::sample_offset_multi_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>gr::steeringVector::sample_offset_multi</label>
+        <link refid="classgr_1_1steeringVector_1_1sample__offset__multi"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>sync_block</label>
+      </node>
+      <node id="41">
+        <label>gr::steeringVector::sample_offset_multi_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" line="31" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/sample_offset_multi_impl.h" bodystart="30" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a4ca9e7dbbacd5ac8df7be9c8f37250de" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_buffer</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ac2313ddb9cd5a6054ad2bf903252818e" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_buffer2</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a86d0a125966c65ef25d253caaff4d23a" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_buffer_in_fft</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a7c37654223214363a381e26ab223a0a7" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_buffer_ref_fft</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a6552cd5708b14e40e3b85a554992a76e" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_fft</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ad4c9c10f41939efb0b47ac6891765bfe" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_fft_width</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a6968fc5bc4a6262efb2fa0dcc120778d" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_ifft</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a35f513b00beb1b7be08730059a9561b2" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_means</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a0cbbb912196d2de6dd476fbb5ac8bebb" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_msg</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a123ee8fd03d284b7e31ac2a9f74bc6f4" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_num_inputs</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a78c0c2c8e6ef478abe6ebc6d92a35dc1" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_in</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a0e847f785d7251b70f1aefeaf7737826" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out0</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ad79bea98c27262ca747e4691192583a6" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out1</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a61ff5d49f0f9cc505a20aaf7bf42865b" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out2</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a7cf840c02aed52817e0903aa05791bc0" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out3</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1adf227a64b91308e6830d84a14ce2a8f1" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out4</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ae797a62eefddccbac2cc302db46ec8a8" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out5</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af476835540a8160f5ac2587f9af3b0a9" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out6</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a1afc8c1b73502d1dcb84a2eb9ead3a2d" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_port_out7</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a49164179379f1ea8e53994e8949936fb" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results1</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1adfa4fb181b4f0165da9ac8551b26ffcb" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results2</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a1c0c759ae923988eff51fc426b5afbc5" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results3</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a620235a495aa870d11e052f08b8aa864" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results4</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a48ff97b766d1942b9d2633ae2b651f36" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results5</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1aedae921d721a0bf5d3a8618a4cbb8611" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results6</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af89bf5dc5003549f4bda663adf13e1b3" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_results7</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a868b5c4194c92d5ed05e1f850518eae5" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_vector_count</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a4824d10d45ccc2d0696bef859f1b0cbd" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_vector_length</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ac49df273fa9bd861d40be81e80029579" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>d_which</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a31701544cb46a8f5452de5e38b7070a1" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>get_shift</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi_1acf7cf767d3f42f4cb413c4debba0dfd3" prot="public" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1ab4bdf27c2ed6ae643961130be44cedac" prot="private" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>recalc_msg</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1af6edcab4faff77390420eeafdb2a5865" prot="public" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>sample_offset_multi_impl</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi_1ad2b223f2212af85a421f97469d1a3315" prot="public" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a5c288477141ee5341aee62a1f5d2bbf3" prot="public" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1steeringVector_1_1sample__offset__multi__impl_1a8b921eaa3fb1a64dccb950df109b2fd6" prot="public" virt="non-virtual"><scope>gr::steeringVector::sample_offset_multi_impl</scope><name>~sample_offset_multi_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

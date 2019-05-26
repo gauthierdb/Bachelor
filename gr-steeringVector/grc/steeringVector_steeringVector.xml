@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<block>
+  <name>steeringVector</name>
+  <key>steeringVector_steeringVector</key>
+  <category>[steeringVector]</category>
+  <import>import steeringVector</import>
+  <make>steeringVector.steeringVector($refAngle, $vectorLength, $arrayLength, $arraySpacing)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+ <param>
+    <name>vectorLength</name>
+    <key>vectorLength</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>arraySpacing</name>
+    <key>arraySpacing</key>
+     <type>float</type>
+  </param>
+  <param>
+    <name>Position in array</name>
+    <key>arrayLength</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>refAngle</name>
+    <key>refAngle</key>
+    <type>int</type>
+  </param>
+<param>
+      <name>Show Msg Ports</name>
+      <key>showports</key>
+      <value>True</value>
+      <type>enum</type>
+      <hide>part</hide>
+      <option>
+          <name>Yes</name>
+          <key>False</key>
+      </option>
+      <option>
+          <name>No</name>
+          <key>True</key>
+      </option>
+  </param>
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+      <vlen>$vectorLength</vlen>
+  </sink>
+  <sink>
+      <name>recalc</name>
+      <type>message</type>
+      <optional>1</optional>
+      <hide>$showports</hide>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+	<vlen>$vectorLength</vlen>
+  </source>
+</block>

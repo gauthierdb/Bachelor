@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gauthier/gr-steeringVector/lib/qa_steeringVector.cc
+qa_steeringVector.h
+/home/gauthier/gr-steeringVector/lib/qa_steeringVector.h
+
+/home/gauthier/gr-steeringVector/lib/qa_steeringVector.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/gauthier/gr-steeringVector/lib/test_steeringVector.cc
+config.h
+/home/gauthier/gr-steeringVector/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_steeringVector.h
+/home/gauthier/gr-steeringVector/lib/qa_steeringVector.h
+iostream
+-
+fstream
+-
+

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="messageAtThreshold_8h" local="no">messageAtThreshold.h</includedby>
+    <includedby refid="multiplyComplex_8h" local="no">multiplyComplex.h</includedby>
+    <includedby refid="phaseOffset_8h" local="no">phaseOffset.h</includedby>
+    <includedby refid="sample__offset__multi_8h" local="no">sample_offset_multi.h</includedby>
+    <includedby refid="steeringVector_8h" local="no">steeringVector.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>multiplyComplex.h</label>
+        <link refid="multiplyComplex_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>phaseOffset.h</label>
+        <link refid="phaseOffset_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>messageAtThreshold.h</label>
+        <link refid="messageAtThreshold_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>steeringVector_impl.h</label>
+        <link refid="steeringVector__impl_8h"/>
+      </node>
+      <node id="11">
+        <label>steeringVector.h</label>
+        <link refid="steeringVector_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>sample_offset_multi.h</label>
+        <link refid="sample__offset__multi_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>messageAtThreshold_impl.h</label>
+        <link refid="messageAtThreshold__impl_8h"/>
+      </node>
+      <node id="10">
+        <label>sample_offset_multi_impl.h</label>
+        <link refid="sample__offset__multi__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>multiplyComplex_impl.h</label>
+        <link refid="multiplyComplex__impl_8h"/>
+      </node>
+      <node id="8">
+        <label>phaseOffset_impl.h</label>
+        <link refid="phaseOffset__impl_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1af1188ae6c080cfb66bb7b082149c8568" prot="public" static="no">
+        <name>STEERINGVECTOR_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/include/steeringVector/api.h" line="30" column="12" bodyfile="/home/gauthier/gr-steeringVector/include/steeringVector/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gauthier/gr-steeringVector/include/steeringVector/api.h"/>
+  </compounddef>
+</doxygen>

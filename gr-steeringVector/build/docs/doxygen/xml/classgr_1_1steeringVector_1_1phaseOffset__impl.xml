@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1steeringVector_1_1phaseOffset__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::steeringVector::phaseOffset_impl</compoundname>
+    <basecompoundref refid="classgr_1_1steeringVector_1_1phaseOffset" prot="public" virt="non-virtual">gr::steeringVector::phaseOffset</basecompoundref>
+    <includes refid="phaseOffset__impl_8h" local="no">phaseOffset_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a88b7552004dd0399f38708b7ad9a87bc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::phaseOffset_impl::d_vector_length</definition>
+        <argsstring></argsstring>
+        <name>d_vector_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="32" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a097b1d79657b72ba3590ea529855217e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::phaseOffset_impl::d_vector_count</definition>
+        <argsstring></argsstring>
+        <name>d_vector_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="33" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a035454de5568b2b4a1a8f544d7a86e6c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::steeringVector::phaseOffset_impl::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="34" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a4d2c0a681bfeaed4718785aabec40bd4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::steeringVector::phaseOffset_impl::d_isActive</definition>
+        <argsstring></argsstring>
+        <name>d_isActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="35" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a0a09439df926c6074fa587eba48ff5ea" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::steeringVector::phaseOffset_impl::d_shift</definition>
+        <argsstring></argsstring>
+        <name>d_shift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="36" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1acf60947fc32a2bed6bc62be220bcd1f8" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::steeringVector::phaseOffset_impl::d_results</definition>
+        <argsstring></argsstring>
+        <name>d_results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="38" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1ad2f446e28fef54d60cfb5a23942f1413" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::steeringVector::phaseOffset_impl::d_buff</definition>
+        <argsstring></argsstring>
+        <name>d_buff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="39" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a3544a823c81b8a33e653f1bb9b1fa3cd" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::phaseOffset_impl::d_port_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="41" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a059a31499eb2c0f4dcd27249d9edf104" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::phaseOffset_impl::d_port_out</definition>
+        <argsstring></argsstring>
+        <name>d_port_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="42" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1ad5c440e41b89a77a0ff2eb8436fd72b2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::steeringVector::phaseOffset_impl::recalc_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>recalc_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a8c5438ed3fbe5ee322d08b15fac5118d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::steeringVector::phaseOffset_impl::avgPhaseDiff</definition>
+        <argsstring>(const gr_complex *&amp;in0, const gr_complex *&amp;in1)</argsstring>
+        <name>avgPhaseDiff</name>
+        <param>
+          <type>const gr_complex *&amp;</type>
+          <declname>in0</declname>
+        </param>
+        <param>
+          <type>const gr_complex *&amp;</type>
+          <declname>in1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a29fc07edd1891ba3d00684f21b4a149e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::steeringVector::phaseOffset_impl::phaseOffset_impl</definition>
+        <argsstring>(int vector_length, int vector_count, bool isActive)</argsstring>
+        <name>phaseOffset_impl</name>
+        <param>
+          <type>int</type>
+          <declname>vector_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_count</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isActive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a0cd883fe5e66d6c6370f9eb78fc31d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::steeringVector::phaseOffset_impl::~phaseOffset_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~phaseOffset_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1phaseOffset__impl_1a2e41a9fb9b822ee2715674ebad848064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::steeringVector::phaseOffset_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>gr::steeringVector::phaseOffset</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gr::steeringVector::phaseOffset_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset__impl"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>gr::steeringVector::phaseOffset</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>gr::steeringVector::phaseOffset_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset__impl"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" line="30" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/phaseOffset_impl.h" bodystart="29" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a8c5438ed3fbe5ee322d08b15fac5118d" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>avgPhaseDiff</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1ad2f446e28fef54d60cfb5a23942f1413" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_buff</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a4d2c0a681bfeaed4718785aabec40bd4" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_isActive</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a3544a823c81b8a33e653f1bb9b1fa3cd" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_port_in</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a059a31499eb2c0f4dcd27249d9edf104" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_port_out</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1acf60947fc32a2bed6bc62be220bcd1f8" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_results</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a0a09439df926c6074fa587eba48ff5ea" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_shift</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a097b1d79657b72ba3590ea529855217e" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_vector_count</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a88b7552004dd0399f38708b7ad9a87bc" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_vector_length</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a035454de5568b2b4a1a8f544d7a86e6c" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>d_which</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset_1a34184bf398fec4d7e3adf80f56b3f7bc" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a29fc07edd1891ba3d00684f21b4a149e" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>phaseOffset_impl</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1ad5c440e41b89a77a0ff2eb8436fd72b2" prot="private" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>recalc_msg</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset_1acd6df1d9e21a99915e61c1dceb4e64a3" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a2e41a9fb9b822ee2715674ebad848064" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset__impl_1a0cd883fe5e66d6c6370f9eb78fc31d07" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset_impl</scope><name>~phaseOffset_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

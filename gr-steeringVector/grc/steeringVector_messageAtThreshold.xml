@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<block>
+  <name>messageAtThreshold</name>
+  <key>steeringVector_messageAtThreshold</key>
+  <category>[steeringVector]</category>
+  <import>import steeringVector</import>
+  <make>steeringVector.messageAtThreshold($isActive, $vector_count, $threshLow, $threshHigh, $initial_state)</make>
+  <callback>set_isActive($isActive)</callback>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>isActive</name>
+    <key>isActive</key>
+    <type>bool</type>
+  </param>
+  <param>
+    <name>Iteration_Count</name>
+    <key>vector_count</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>threshLow</name>
+    <key>threshLow</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>threshHigh</name>
+    <key>threshHigh</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>initial_state</name>
+    <key>initial_state</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <optional>1</optional>
+  </sink>
+
+
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>recalcDelay</name>
+    <type>message</type>
+		<optional>1</optional>
+  </source>
+  <source>
+    <name>recalcPhase</name>
+    <type>message</type>
+		<optional>1</optional>
+  </source>
+</block>

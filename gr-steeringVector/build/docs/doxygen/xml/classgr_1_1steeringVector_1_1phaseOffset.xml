@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1steeringVector_1_1phaseOffset" kind="class" language="C++" prot="public">
+    <compoundname>gr::steeringVector::phaseOffset</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1steeringVector_1_1phaseOffset__impl" prot="public" virt="non-virtual">gr::steeringVector::phaseOffset_impl</derivedcompoundref>
+    <includes refid="phaseOffset_8h" local="no">phaseOffset.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1steeringVector_1_1phaseOffset_1acd6df1d9e21a99915e61c1dceb4e64a3" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1steeringVector_1_1phaseOffset" kindref="compound">phaseOffset</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;phaseOffset&gt; gr::steeringVector::phaseOffset::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/include/steeringVector/phaseOffset.h" line="39" column="1" bodyfile="/home/gauthier/gr-steeringVector/include/steeringVector/phaseOffset.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1phaseOffset_1a34184bf398fec4d7e3adf80f56b3f7bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1steeringVector_1_1phaseOffset_1acd6df1d9e21a99915e61c1dceb4e64a3" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::steeringVector::phaseOffset::make</definition>
+        <argsstring>(int vector_length, int vector_count, bool isActive)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>vector_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_count</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isActive</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1steeringVector_1_1phaseOffset" kindref="compound">steeringVector::phaseOffset</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1steeringVector_1_1phaseOffset" kindref="compound">steeringVector::phaseOffset</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1steeringVector_1_1phaseOffset_1a34184bf398fec4d7e3adf80f56b3f7bc" kindref="member">steeringVector::phaseOffset::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/include/steeringVector/phaseOffset.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>gr::steeringVector::phaseOffset</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>gr::steeringVector::phaseOffset_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset__impl"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>gr::steeringVector::phaseOffset</label>
+        <link refid="classgr_1_1steeringVector_1_1phaseOffset"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gauthier/gr-steeringVector/include/steeringVector/phaseOffset.h" line="37" column="1" bodyfile="/home/gauthier/gr-steeringVector/include/steeringVector/phaseOffset.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset_1a34184bf398fec4d7e3adf80f56b3f7bc" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset</scope><name>make</name></member>
+      <member refid="classgr_1_1steeringVector_1_1phaseOffset_1acd6df1d9e21a99915e61c1dceb4e64a3" prot="public" virt="non-virtual"><scope>gr::steeringVector::phaseOffset</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

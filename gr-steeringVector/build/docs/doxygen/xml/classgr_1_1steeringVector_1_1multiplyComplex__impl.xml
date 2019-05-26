@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1steeringVector_1_1multiplyComplex__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::steeringVector::multiplyComplex_impl</compoundname>
+    <basecompoundref refid="classgr_1_1steeringVector_1_1multiplyComplex" prot="public" virt="non-virtual">gr::steeringVector::multiplyComplex</basecompoundref>
+    <includes refid="multiplyComplex__impl_8h" local="no">multiplyComplex_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1multiplyComplex__impl_1ac1f7d479923feea5f9ff2f45b2f5ec70" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::steeringVector::multiplyComplex_impl::d_port_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="32" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a79b7fb5dfc60962e9c5f1eb27408321c" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::steeringVector::multiplyComplex_impl::complexConst</definition>
+        <argsstring></argsstring>
+        <name>complexConst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="34" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a3d5c515ca3b5a5c5612f0925658bc683" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::steeringVector::multiplyComplex_impl::multiply_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>multiply_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1multiplyComplex__impl_1aeee6c6faf9b8135a37cb0c251af434ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::steeringVector::multiplyComplex_impl::multiplyComplex_impl</definition>
+        <argsstring>()</argsstring>
+        <name>multiplyComplex_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a2e7f40142b3ff7aa411568ad8d4db0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::steeringVector::multiplyComplex_impl::~multiplyComplex_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~multiplyComplex_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a87ac9504524d920375d9cd202861c287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::steeringVector::multiplyComplex_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>gr::steeringVector::multiplyComplex</label>
+        <link refid="classgr_1_1steeringVector_1_1multiplyComplex"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::steeringVector::multiplyComplex_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1multiplyComplex__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>gr::steeringVector::multiplyComplex</label>
+        <link refid="classgr_1_1steeringVector_1_1multiplyComplex"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>gr::steeringVector::multiplyComplex_impl</label>
+        <link refid="classgr_1_1steeringVector_1_1multiplyComplex__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" line="30" column="1" bodyfile="/home/gauthier/gr-steeringVector/lib/multiplyComplex_impl.h" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a79b7fb5dfc60962e9c5f1eb27408321c" prot="private" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>complexConst</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1ac1f7d479923feea5f9ff2f45b2f5ec70" prot="private" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>d_port_in</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex_1a5b6b92b5ab1c38468fc8c3f71dc21013" prot="public" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a3d5c515ca3b5a5c5612f0925658bc683" prot="private" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>multiply_msg</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1aeee6c6faf9b8135a37cb0c251af434ec" prot="public" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>multiplyComplex_impl</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex_1a1680aceb41f4fe4f54ac3fdb67e9fbe1" prot="public" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a87ac9504524d920375d9cd202861c287" prot="public" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1steeringVector_1_1multiplyComplex__impl_1a2e7f40142b3ff7aa411568ad8d4db0a5" prot="public" virt="non-virtual"><scope>gr::steeringVector::multiplyComplex_impl</scope><name>~multiplyComplex_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
